@@ -231,24 +231,11 @@ class MiniGPT(nn.Module):
 - **Domain Adaptation**: Adapt to specific text domains
 - **Parameter-Efficient**: Use adapter layers
 
-
 ## Resources
 
 - [Karpathy's makemore](https://github.com/karpathy/makemore)
 - [Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - [PyTorch tutorials](https://pytorch.org/tutorials/)
-
-## Contributing
-
-This is an educational project. Feel free to:
-- Report bugs or issues
-- Suggest improvements
-- Add new features or examples
-- Improve documentation
-
-## License
-
-This project is for educational purposes. Please respect the original sources and citations.
 
 ## Acknowledgments
 
