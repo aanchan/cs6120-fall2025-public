@@ -1,0 +1,1 @@
+# Week 2: Word Embeddings 
