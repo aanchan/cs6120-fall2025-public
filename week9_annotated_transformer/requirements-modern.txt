@@ -1,0 +1,34 @@
+# Modern Annotated Transformer - Updated Dependencies
+# Removes torchtext dependency, uses Hugging Face ecosystem
+# Compatible with Google Colab and modern PyTorch
+
+# Core ML frameworks
+torch>=2.4.0
+# NO torchtext - replaced with Hugging Face libraries
+
+# Hugging Face ecosystem (replaces torchtext)
+transformers>=4.40.0  # For tokenizers and utilities
+datasets>=3.0.0       # For dataset loading (replaces torchtext.datasets)
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization (keeping both options)
+altair>=5.0.0         # Original visualization library
+plotly>=5.20.0        # Modern alternative from 2025 version
+
+# Development tools
+jupytext>=1.16.0      # For .py <-> .ipynb conversion
+ipython>=8.0.0
+
+# GPU monitoring
+GPUtil>=1.4.0
+
+# Optional: If you want to use spacy for additional text processing
+# spacy>=3.7.0
+# python -m spacy download en_core_web_sm
+# python -m spacy download de_core_news_sm
+
+# Optional: Distributed training
+# wandb  # For experiment tracking
